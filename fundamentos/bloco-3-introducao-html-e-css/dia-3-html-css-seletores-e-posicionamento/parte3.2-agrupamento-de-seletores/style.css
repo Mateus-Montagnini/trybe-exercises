@@ -1,0 +1,37 @@
+h3:hover {
+    border: 30px;
+    
+}
+
+.italico {
+    font-style: italic;
+}
+
+.divblue h3 {
+    color: blue;
+    padding: 20px;
+}
+
+.divred h3 {
+    color: red;
+    float: left;
+}
+
+.divpurple h3 {
+    color: purple;
+    float: right;
+}
+
+.divgreen h3 {
+    color: green;
+    position: absolute;
+}
+
+.divyellow h3 {
+    color: yellow;
+    margin: 50px;
+}
+
+.bigger {
+    font-size: 2em;
+}
