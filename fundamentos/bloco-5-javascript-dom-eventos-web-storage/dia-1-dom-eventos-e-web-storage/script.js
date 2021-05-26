@@ -15,3 +15,15 @@ function changeRedSquare() {
   redSquare.style.backgroundColor = 'white';
 }
 changeRedSquare();
+
+function correctTitle () {
+  let title = document.getElementsByTagName('h1')[0];
+  title.innerHTML = 'Exercício 5.1 - Javascript';
+}
+correctTitle();
+
+function paragraphUpperCase() {
+  let paragraph = document.getElementsByTagName('p')[0];
+  paragraph.innerHTML = paragraph.innerHTML.toUpperCase();
+}
+paragraphUpperCase();
