@@ -80,10 +80,24 @@
       //Exercicio 5
       const elementDivLeft = document.createElement('div');
       elementDivLeft.className = 'left-content';
-      elementDivLeft.appendChild(elementDiv);
+      elementDiv.appendChild(elementDivLeft);
 
       //Exercicio 6
-      
+      const elementDivRight = document.createElement('div');
+      elementDivRight.className = 'right-content';
+      elementDiv.appendChild(elementDivRight);
+
+      //Exercicio 7
+      const elementImg = document.createElement('img');
+      elementImg.className = 'small-image';
+      elementImg.src = 'https://picsum.photos/200';
+      elementDivLeft.appendChild(elementImg);
+
+      // Exercicio 8
+      const list = document.createElement('ul');
+      elementDivRight.appendChild(list);
+      const arrayNum = ['Um', 'Dois', 'Tres', 'Quatro','Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez']
+
     </script>
   </body>
 </html>
